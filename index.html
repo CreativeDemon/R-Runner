@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>R-Runner Game</title>
+  <style>
+    @font-face {
+      font-family: "GameFont";
+      src: url("assets/fonts/deltarune.ttf") format("truetype");
+    }
+    
+  html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  background: #000;
+}
+</style> 
+</head>
+
+<body>
+  <canvas id="game"></canvas>
+  
+  <!-- core -->
+  <script src="js/core/config.js"></script>
+  <script src="js/core/loader.js"></script>
+  <script src="js/core/input.js"></script>
+  <script src="js/core/collision.js"></script>
+  <script src="js/core/cutscene.js"></script>
+  <script src="/code/js/core/gameover.js"></script>
+  <script src="/code/js/core/restart.js"></script>
+  
+  
+  <!-- game modules -->
+  <script src="js/game/background.js"></script>
+  <script src="js/game/tiles.js"></script>
+  <script src="js/game/player.js"></script>
+  <script src="js/game/enemy-config.js"></script>
+  <script src="/code/js/game/restart.js"></script>
+  <script src="js/game/enemy.js"></script>
+  
+  <script src="/code/js/ui/ui.js"></script>
+  <!-- main -->
+  <script src="js/core/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+window.CONFIG = {
+  WIDTH: 640,
+  HEIGHT: 360,
+  TILE: 32,
+  GRAVITY: 0.75,
+  JUMP_FORCE: -10,
+  SPEED: 3, 
+  MAX_SPEED: 15, 
+  SPEED_STEP: 1, 
+  SCORE_STEP: 100,
+  STUN_TIME: 2500,
+  LIFE: 3,
+  GAME_STARTED: false,
+  WORLD_SPEED: 1.0,
+};

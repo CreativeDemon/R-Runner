@@ -1,0 +1,73 @@
+{
+  "player": {
+    "idle": {
+      "name": "player_idle",
+      "path": "assets/sprites/player/player_idle.png",
+      "frames": 8,
+      "w": 384,
+      "h": 48
+    },
+    "run": {
+      "name": "player_run",
+      "path": "assets/sprites/player/player_run.png",
+      "frames": 6,
+      "w": 288,
+      "h": 48
+    },
+    "jump": {
+      "name": "player_jump",
+      "path": "assets/sprites/player/player_jump.png",
+      "frames": 5,
+      "w": 240,
+      "h": 48
+    },
+    "death": {
+      "name": "player_death",
+      "path": "assets/sprites/player/player_death.png",
+      "frames": 6,
+      "w": 288,
+      "h": 48
+    }
+  },
+  
+  "enemies": {
+    "type1": {
+      "name": "enemy_laydown",
+      "path": "assets/sprites/enemy/enemy_laydown.png",
+      "frames": 2,
+      "w": 96,
+      "h": 48
+    },
+    "type2": {
+      "name": "enemy_alert",
+      "path": "assets/sprites/enemy/enemy_alert.png",
+      "frames": 2,
+      "w": 96,
+      "h": 48
+    },
+    "type3": {
+      "name": "enemy_runner",
+      "path": "assets/sprites/enemy/enemy_runner.png",
+      "frames": 6,
+      "w": 288,
+      "h": 48
+    }
+  },
+  
+  "beats": {
+    "beat1": {
+      "name": "enemy_beat1",
+      "path": "assets/sprites/1_beat.png",
+      "frames": 3,
+      "w": 144,
+      "h": 48
+    },
+    "beat2": {
+      "name": "enemy_beat2",
+      "path": "assets/sprites/2_beat.png",
+      "frames": 4,
+      "w": 192,
+      "h": 48
+    }
+  }
+}
